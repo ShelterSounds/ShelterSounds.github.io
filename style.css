@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Google Fonts API */
+@import url(https://fonts.googleapis.com/css?family=Rubik+Mono+One); 
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body {
+	margin:0;
+	padding:0;
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */	
+}
+
+#top {
+	display:block;
+	width:100%;
+}
+
+#content {
+	max-width:80%;
+	margin:auto;
+	align-content: center;
+}
+
+#airtable {
+	max-width:80%;
+	margin:auto;
+}
+
+		.button {
+          border-color: #f86439;
+			    border-style: solid;
+		    	border-radius: 10px;
+          padding: 20px 20px 20px 20px;
+          background: #fff;
+          font-family: 'roboto', san-serif;
+          font-size: 16px;
+          letter-spacing: .1em;
+          cursor: pointer;
+          outline: none;
+          margin-top: 40px;
+          box-shadow: none;
+        }
+
+/*** Text ***/
+header {
+  font-family: 'Rubik Mono One', sans-serif;
+	font-weight: 400;
+	color:#fff;
+	text-align:left;
+	background-color:#f86439;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+body {
+	font-family:'Roboto', Arial, san-serif;
+	color:#444555;
+	text-align:center;
+	background:#f5f7f9;
+}
+
+/*** Links ***/
+a, a.one:link, a.one:visited {
+	color:#f5f7f9;
+	text-decoration:none;
+}
+
+a, a:link, a:visited {
+	color:#5A5B69;
+	text-decoration:none;
+}
+
+a:hover {
+	border-bottom: 1px solid #f86439;	
+}
+
+
+/*** Top ***/
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	margin:0 460px;
+	padding:0;
+	font-size:40px;
+}
+
+
+h2 {
+	font-family: 'Roboto', serif;
+	font-weight: 400;
+	margin:0 460px;
+	margin-top:15px;
+	margin-bottom:0px;
+	padding:0;
+	font-size:24px;	
+}
+
+/*** Bottom ***/
+#airtable {
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+h3 {
+	font-size:24px;
+	margin:0 460px;
+	margin-top:50px;
+	margin-bottom:0px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size:24px;
+	line-height: 42px;
+	margin:0 460px;
+	margin-top:20px;
+	margin-bottom:0px;
+	text-align: center;
+}
+
+/* *=*=*=*=*=*=*=*=*=* Small screen *=*=*=*=*=*=*=*=*=* */
+		
+@media only screen and (max-width: 1600px) {
+
+/*** Contact ***/
+h4 {
+	margin:0 100px;
+}
+
+h1 {
+	margin:0 100px;
+	font-weight: 400italic;
+	padding:0;
+	font-size:40px;
+}
+
+span.name {color:#339966}
+
+h2 {
+	margin:0 100px;
+	margin-top:15px;
+	margin-bottom:0px;
+	padding:0;
+	font-size:22px;	
+}
+
+/*** Bottom ***/
+#bottom {
+	padding-top: 0px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+h3 {
+	font-size:24px;
+	margin:0 100px;
+	margin-top:40px;
+	margin-bottom:0px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size:26px;
+	line-height: 32px;
+	margin:0 100px;
+	margin-top:12px;
+	margin-bottom:22px;
+}
+
+
+
+}
+
+/* *=*=*=*=*=*=*=*=*=* Phone *=*=*=*=*=*=*=*=*=* */
+
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 568px) {
+
+/*** Contact ***/
+h4 {
+	margin:0 60px;
+}
+
+h1 {
+	margin:0 60px;
+	font-weight: 400italic;
+	padding:0;
+	font-size:38px;
+}
+
+span.name {color:#339966}
+
+h2 {
+	margin:0 60px;
+	margin-top:15px;
+	margin-bottom:0px;
+	padding:0;
+	font-size:22px;	
+}
+
+/*** Bottom ***/
+#bottom {
+	padding-top: 0px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+h3 {
+	font-size:24px;
+	margin:0 60px;
+	margin-top:40px;
+	margin-bottom:0px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size:24px;
+	line-height: 24px;
+	margin:0 60px;
+	margin-top:12px;
+	margin-bottom:26px;
+}
+
+}
