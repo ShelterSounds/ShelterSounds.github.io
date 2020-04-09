@@ -21,10 +21,10 @@ html, body {
 	margin-bottom: 20px;
 }
 
-#content {
+#buttons {
 	max-width:80%;
 	margin:auto;
-	align-content: center;
+	margin-bottom:20px;
 }
 
 #airtable {
