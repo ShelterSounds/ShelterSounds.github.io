@@ -54,7 +54,7 @@ html, body {
 
 /*** Text ***/
 header {
-  font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'Rubik Mono One', sans-serif;
 	font-weight: 400;
 	color:#fff;
 	text-align:left;
@@ -68,6 +68,13 @@ body {
 	color:#444555;
 	text-align:center;
 	background:#f5f7f9;
+}
+
+span {
+	font-family:'Roboto', Arial, san-serif;
+	color:#888;
+	font-size: 18px;
+	text-align:center;
 }
 
 /*** Links ***/
